@@ -1,5 +1,4 @@
-# HyperFLINT
-[EuroVis 2025] HyperFLINT: Hypernetwork-based Flow Estimation and Temporal Interpolation for Scientific Ensemble Visualization
+# [EuroVis 2025] HyperFLINT: Hypernetwork-based Flow Estimation and Temporal Interpolation for Scientific Ensemble Visualization
 
 We present HyperFLINT (Hypernetwork-based FLow estimation and temporal INTerpolation), a novel deep learning-based
 approach for estimating flow fields, temporally interpolating scalar fields, and facilitating parameter space exploration in
