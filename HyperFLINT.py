@@ -514,7 +514,6 @@ class Model:
             merged_teacher = torch.tensor(0.)
             flow_teacher = torch.tensor(0.)
 
-        # return merged[2], {
         return merged[-1], {
             'merged_tea': merged_teacher,
             'mask': mask,

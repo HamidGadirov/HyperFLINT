@@ -77,9 +77,7 @@ def functional_conv_transpose3d(x, weight, bias, out_planes, stride=2, padding=1
     x = prelu(x)
     return x
 
-# """
-# autoencoder: instead of pixels we have weights
-# k channels times 3x3 spatial dims
+# k channels times 3x3 spatial dims -> generate
 class HyperNetwork(nn.Module):
     def __init__(self, input_dim, latent_dim, weight_shapes):
         super(HyperNetwork, self).__init__()
