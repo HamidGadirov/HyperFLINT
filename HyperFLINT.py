@@ -89,12 +89,8 @@ class Model:
         self.hypernet = HyperNetwork(input_dim, latent_dim, weight_shapes).to(self.device)
 
         # self.device()
-        # self.optimG = AdamW(self.FLINTnet.parameters(), lr=1e-6, weight_decay=1e-3)
-        # FLINT_params = filter(lambda p: p.requires_grad, self.FLINTnet.parameters())
-        # self.FLINT_optimizer = AdamW(FLINT_params, lr=1e-6, weight_decay=1e-3)
         self.FLINT_optimizer = AdamW(self.FLINTnet.parameters(), lr=1e-6, weight_decay=1e-3)
         self.hypernet_optimizer = AdamW(self.hypernet.parameters(), lr=1e-6, weight_decay=1e-3)
-        # make one optimizer with one dictionary
         
         # self.scaler = GradScaler()
         
