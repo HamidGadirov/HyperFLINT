@@ -1,6 +1,7 @@
 ## [EuroVis 2025] HyperFLINT: Hypernetwork-based Flow Estimation and Temporal Interpolation for Scientific Ensemble Visualization
 
-[Hamid Gadirov]((https://hamidgadirov.github.io)), [Qi Wu](https://wilsoncernwq.github.io/), [David Bauer](https://davidbauer.me), [Kwan-Liu Ma](https://www.cs.ucdavis.edu/~ma/index.html), [Jos BTM Roerdink](https://scholar.google.nl/citations?user=jCFYHlkAAAAJ&hl=nl), [Steffen Frey](https://freysn.github.io/)
+[Hamid Gadirov](https://hamidgadirov.github.io), [Qi Wu](https://wilsoncernwq.github.io/), [David Bauer](https://davidbauer.me), [Kwan-Liu Ma](https://www.cs.ucdavis.edu/~ma/index.html), [Jos BTM Roerdink](https://scholar.google.nl/citations?user=jCFYHlkAAAAJ&hl=nl), [Steffen Frey](https://freysn.github.io/)
+
 *Computer Graphics Forum (EuroVis 2025), Wiley*  
 [Paper (CGF)](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.70134)
 
